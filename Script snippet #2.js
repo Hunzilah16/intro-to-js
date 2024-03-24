@@ -1,0 +1,1 @@
+alert(prompt("compose your tweer").slice(0,20));
