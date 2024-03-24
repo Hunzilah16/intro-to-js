@@ -4,6 +4,8 @@ var firstcharupp = firstchar.toUpperCase();
 
 var restname = name.slice(1,name.length);
 
+restname = restname.toLowerCase();
+
 var change = firstcharupp+restname;
 
 alert ("hellow " + change)
