@@ -20,30 +20,61 @@
 
 
 
-var outout = [];
-var count = 1;
+// var outout = [];
+// var count = 1;
 
-function increment () {
+// function increment () {
     
-    output.push(count);
-    count=count+1;
+//     output.push(count);
+//     count=count+1;
 
-    if (count % 3===0) {
-  outout.push("fizz");       
-    }
+//     if (count % 3===0) {
+//   outout.push("fizz");       
+//     }
 
-        else if (count%5===0) {
-            outout.push("buzz");
-        }
-            else if (count%5===0 && count%3===0) {
-                outout.push("fizzbuzz");
-            }
-    else { 
+//         else if (count%5===0) {
+//             outout.push("buzz");
+//         }
+//             else if (count%5===0 && count%3===0) {
+//                 outout.push("fizzbuzz");
+//             }
+//     else { 
         
-        console.log(outout);
+//         console.log(outout);
         
-    }
+//     }
     
-    console.log(output);
+//     console.log(output);
     
+// }
+
+
+
+var outout =[];
+var count =(1);
+
+function logic() { 
+    if (count%3===0 && count%5===0) {
+    outout.push('fizzbuzz');
 }
+
+else if (count%3===0) {
+    outout.push("fizz");
+}
+
+else if (count%5===0) {
+    outout.push("buzz");
+}
+    
+else { 
+    
+    outout.push(count);
+} 
+
+
+
+    count=count+1;
+    console.log(outout);
+}
+
+// ok now it works//
